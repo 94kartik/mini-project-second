@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    width: 450px;
+    /* border: 1px solid red; */
+    height: 90%;
+    
+    
+}
+.hero{
+    margin-bottom: 0;
+    height: 220px;
+}
+.container2{
+    
+    height: 370px;
+    background-color: #e0e8ff;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+svg{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+} 
+.order-summary{
+    text-align: center;
+    padding-top: 20px;
+}
+.button-one, .button-two{
+    text-align: center;
+}
+.annual-plan{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    /* border: 1px solid rgb(240, 184, 184); */
+    margin-top: 20px;
+}
+.item1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+h3{
+    color: #1f3054;
+    font-size: 1.5rem;
+    font-weight: 700;
+    /* margin-top: 20px; */
+    
+}
+p{
+    color: rgba(31,48,84,255);
+    font-weight: 400;
+    padding-top: 20px;
+    
+}
+.button-one{
+    margin-top: 45px;
+}
+.button-two{
+    margin-top: 10px;
+}
+.change-button{
+    margin-top: 10px;
+    
+}
+.button0{
+    border-radius: 11px;
+    background-color:#382ae1 ;
+    color: white;
+    height: 30px;
+    width: 80px;
+    
+}
+.button1{
+    background-color: #382ae1;
+    color: white;
+    border-radius: 8px;
+    width: 70%;
+    height: 40px;
+    
+}
+.button2{
+    background-color: #382ae1;
+    color: white;
+    border-radius: 8px;
+    width: 70%;
+    height: 30px;
+    
+}
+.text1{
+    color: #1f3054;
+    font-weight: 600;
+}
+.button0:hover{
+    background-color: #382ae1;
+    opacity: 0.5;
+    
+    cursor: pointer;
+}
+.button1:hover{
+    background-color: #382ae1;
+    opacity: 0.5;
+    
+    cursor: pointer;
+}
+.button2:hover{
+    background-color: #382ae1;
+    opacity: 0.5;
+    
+    cursor: pointer;
+    
+}
